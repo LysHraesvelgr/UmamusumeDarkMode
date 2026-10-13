@@ -75,10 +75,13 @@ Stores your configured opacity, master volume level, and focus-mute preference a
 ### Prerequisites
 - Windows 10 / 11
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+  - ```powershell
+    winget install Microsoft.DotNet.SDK.8
+    ```
 
 ### Build Command
 ```powershell
-git clone https://github.com/your-username/UmamusumeDarkMode.git
+git clone https://github.com/LysHraesvelgr/UmamusumeDarkMode.git
 cd UmamusumeDarkMode
 dotnet build -c Release
 ```
