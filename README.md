@@ -85,7 +85,11 @@ dotnet build -c Release
 
 ### Publish Single-File Executable
 ```powershell
-dotnet publish UmamusumeDarkMode\UmamusumeDarkMode.csproj -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true
+dotnet publish UmamusumeDarkMode\UmamusumeDarkMode.csproj `
+-c Release `
+-r win-x64 `
+--self-contained false `
+--no-dependencies
 ```
 The output binary will be located in:
 ```text
